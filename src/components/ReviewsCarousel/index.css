@@ -3,10 +3,16 @@
   background-size: cover;
   padding: 2rem;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   font-family: 'Roboto';
+}
+
+.reviews-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews-header {
@@ -59,6 +65,7 @@
 
 .review-description {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .review-company-name,
