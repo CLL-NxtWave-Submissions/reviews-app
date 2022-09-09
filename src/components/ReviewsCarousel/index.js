@@ -52,7 +52,7 @@ export default class ReviewsCarousel extends Component {
           <h1 className="reviews-header">Reviews</h1>
           <div className="reviews-carousel-container">
             <button
-              testid="leftArrow"
+              //   testid="leftArrow"
               type="button"
               className="carousel-control-button"
               onClick={this.onLeftCarouselControlClick}
@@ -76,7 +76,7 @@ export default class ReviewsCarousel extends Component {
             </div>
 
             <button
-              testid="rightArrow"
+              //   testid="rightArrow"
               type="button"
               className="carousel-control-button"
               onClick={this.onRightCarouselControlClick}
